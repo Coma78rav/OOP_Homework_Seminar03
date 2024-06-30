@@ -2,11 +2,11 @@ package Seminar03.src;
 
 import java.util.Iterator;
 
-public class GroupIterator implements Iterator<StudentGroup> {
+public class GroupsIterator implements Iterator<StudentGroup> {
     private int counter;
     private Stream stream;
 
-    public GroupIterator(Stream stream) {
+    public GroupsIterator(Stream stream) {
         this.stream = stream;
         this.counter = 0;
     }
